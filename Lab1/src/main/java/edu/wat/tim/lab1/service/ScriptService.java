@@ -46,3 +46,16 @@ public class ScriptService {
         }
     }
 }
+//productEntityRepository.findAll().forEach(function(product) {
+//        // Check if the unit is 'szt'
+//        if (product.getUnit() === 'szt') {
+//        // Get the items associated with the current product
+//        var items = itemEntityRepository.findAllByProductEntityId(product.getId());
+//
+//        // Double the quantity of each item
+//        items.forEach(function(item) {
+//        item.setAmount(item.getAmount()*2);
+//        itemEntityRepository.save(item);
+//        });
+//        }
+//        });
